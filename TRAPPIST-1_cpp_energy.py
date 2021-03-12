@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 f = open('D:\Energy.txt')
-E = []
-s = []
+E, s = [], []
 begin = True
 for str in f:
     Arr = str.split(' ')
